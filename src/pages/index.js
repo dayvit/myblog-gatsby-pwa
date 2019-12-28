@@ -21,6 +21,7 @@ const IndexPage = () => {
               description
               title
             }
+            timeToRead
           }
         }
       }
