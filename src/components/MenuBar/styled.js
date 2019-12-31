@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 export const MenuBarWrapper = styled.aside`
   align-items: center;
   background: var(--mediumBackground);
@@ -17,7 +17,7 @@ export const MenuBarGroup = styled.div`
   display: flex;
   flex-direction: column;
 `
-export const MenuBarLink = styled(Link)`
+export const MenuBarLink = styled(AniLink)`
   display: block;
 `
 export const MenuBarItem = styled.span`
