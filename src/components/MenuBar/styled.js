@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
-
 export const MenuBarWrapper = styled.aside`
   align-items: center;
   background: var(--mediumBackground);
@@ -14,16 +13,13 @@ export const MenuBarWrapper = styled.aside`
   right: 0;
   width: 3.75rem;
 `
-
 export const MenuBarGroup = styled.div`
   display: flex;
   flex-direction: column;
 `
-
 export const MenuBarLink = styled(Link)`
   display: block;
 `
-
 export const MenuBarItem = styled.span`
   color: var(--texts);
   cursor: pointer;
@@ -32,6 +28,12 @@ export const MenuBarItem = styled.span`
   padding: 1.1rem;
   position: relative;
   width: 3.75rem;
+  &.light {
+    color: #d4d400;
+    &:hover {
+      color: #e2e240;
+    }
+  }
   &:hover {
     color: var(--highlight);
   }
