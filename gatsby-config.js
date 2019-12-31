@@ -7,7 +7,8 @@ module.exports = {
     title: `Dayvit Siqueira`,
     position: `Desenvolvedor Backend`,
     description: `A blog about frontEnd development end other cool stuff.`,
-    author: `@dayvit`,
+    author: `@dayvitst`,
+    siteUrl: `https://devsiqueira.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
